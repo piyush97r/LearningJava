@@ -12,6 +12,7 @@ public class marks {
                 name = input.nextLine();   //String Input
                 marks = input.nextInt();    //Integer Input
         // Following If Statements used to mark grades
+        //Check
                 if(marks>100) {
                     grade = "A";
                     System.out.println("The grade scored by " + name + " is " + grade);
