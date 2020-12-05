@@ -54,7 +54,7 @@ public class IfElseLoop {
                 // Write the rest of the logic
 
         }
-        //System.out.println(day);
+        System.out.println(day);
         // From the day number of the year, finding the day no. of the week
         int dayNumber = day % 7;
         // recall, day 1 is Monday
