@@ -12,7 +12,5 @@ public class doWhile5 {
             System.out.println(counter);
             counter--;
         }while(counter>=0);
-
-
     }
 }
