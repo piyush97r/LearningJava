@@ -10,7 +10,7 @@ public class WhileLoop5 {
         n = input.nextInt();
         int a = 1;
         while ((x*a)<=(x*n)){
-            System.out.println(x*a);
+            System.out.print(x*a);
             a++;
 
         }
