@@ -2,21 +2,15 @@ package com.company;
 
 public class FunctionsClass {
 
-        public static void main(String[] args) {
+            public static void main(String[] args) {
+                String var = test();
+                System.out.print(var.length());
+            }
 
-            double var = test();
-
-            System.out.print(var);
-
-        }
-
-        public static int test() {
-
-            int variable = 4;
-
-            return variable;
-
-        }
+            public static String test() {
+                String variable = "Hello World";
+                return variable;
+            }
 
     }
 
