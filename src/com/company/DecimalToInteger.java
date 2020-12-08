@@ -11,7 +11,7 @@ public class DecimalToInteger {
 
 
         for(int i = 0; i <  array.length; i++) {
-            System.out.print((array[i])+(i==array.length?"":" "));
+            System.out.print((array[i])+(i==array.length-1?"":" "));
 
         }
 
