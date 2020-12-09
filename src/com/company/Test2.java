@@ -11,15 +11,15 @@ public class Test2 {
         //Write the function body here
          for(int i = 0; i<numbers.length;i++){
             if(numbers[i]%3==0&& numbers[i]%5==0){
-                System.out.print("FizzBuzz");
+                System.out.println("FizzBuzz");
             } else if (numbers[i]%5==0) {
-                System.out.print("Buzz ");
+                System.out.println("Buzz");
             }
             else if (numbers[i]%3==0){
-                System.out.print("Fizz ");
+                System.out.println("Fizz");
             }
             else{
-                System.out.print(numbers[i]+" ");
+                System.out.println(numbers[i]+" ");
             }
 
         }
