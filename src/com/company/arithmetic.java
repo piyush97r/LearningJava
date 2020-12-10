@@ -20,11 +20,15 @@ public class arithmetic {
         double q = 2.0;
         double r = p/q;
         System.out.println(r);
+        char num = 74;
+        char digit = 'a';
+        char trial = '7';
 
+        System.out.println(num+" "+digit+" "+trial);
 
         double j = 3.0;
         double k = 2.0;
-        //int l = j/k;
+        //int l = (j/k);
 
     }
 }
