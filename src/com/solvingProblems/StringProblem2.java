@@ -1,9 +1,10 @@
 package com.solvingProblems;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class StringProblem2 {
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws NoSuchElementException {
             Scanner sc=new Scanner(System.in);
             System.out.println("================================");
             for(int i=0;i<3;i++)

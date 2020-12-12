@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class PrimeFunction {
 
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
             int num;
             System.out.println("Enter the number you wish to check : ");
@@ -18,7 +19,7 @@ public class PrimeFunction {
         public static String prime(int num) {
             boolean primecheck = true;
             String result;
-            for (int i = 2; i < Math.sqrt(num); i++) {
+            for (int i = 2; i <=Math.sqrt(num) /*Can also use i<=num/2*/; i++) {
                 // condition for nonprime number
                 if (num % i == 0) {
 
