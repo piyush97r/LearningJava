@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SqaresAndCirlces {
     public static void main(String[] args){
+        //Taking Inputs randomly
         Squares s1 = new Squares();
         Squares s2 = new Squares();
         s1.length = 10f;
