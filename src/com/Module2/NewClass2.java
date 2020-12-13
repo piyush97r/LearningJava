@@ -3,7 +3,7 @@ package com.Module2;
 public class NewClass2 {
     public static void main(String[] args){
         float radius = 10f;
-        System.out.println(Circle.area(radius));
+        System.out.println(Circle5.area(radius));
     }
 }
 
