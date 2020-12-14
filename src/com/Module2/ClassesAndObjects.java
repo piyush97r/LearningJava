@@ -9,7 +9,7 @@ public class ClassesAndObjects {
 }
 
 class MovieTicket {
-    public int singleTicketCost;
+    public int singleTicketCost; //Should be defined as private as this allows other users to change the singleTicketCost to 0 and allowing them to book multiple tickets at 0
 
     public MovieTicket(int singleTicketCost) {
         this.singleTicketCost = singleTicketCost;
