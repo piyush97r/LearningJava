@@ -15,12 +15,18 @@ class Student1{
     public double cgpa;
     //ReCommit
 
-    // Declare constructor of 'Student' class here
-    public Student1(int rollno ,  String name , double cgpa){
+    public Student1(int rollno, String name, double cgpa) {
         this.rollno = rollno;
         this.name = name;
         this.cgpa = cgpa;
-    }
+    }// Right Click and choose Generate and then choose all the attributes. This helps in generating a constructor automatically.
+
+    // Declare constructor of 'Student' class here
+    /*public Student1(int rollno ,  String name , double cgpa){
+        this.rollno = rollno;
+        this.name = name;
+        this.cgpa = cgpa;
+    }*/
 
     public void displayProfile() {
         System.out.println(rollno + " " + name + " " + cgpa);
