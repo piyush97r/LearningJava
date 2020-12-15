@@ -15,6 +15,8 @@ class MovieTicket {
         this.singleTicketCost = singleTicketCost;
     }
 
+
+
     public int calculateCost(int quantity) {
         return quantity * singleTicketCost;
     }
