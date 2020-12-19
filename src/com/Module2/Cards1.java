@@ -25,7 +25,8 @@ class Cards {
         int value;
         String suit;
 
-        public void setCards(String suit, int r) {
+
+    public void setCards(String suit, int r) {
             this.value = r;
             this.suit = suit;
         }
