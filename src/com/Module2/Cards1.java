@@ -1,3 +1,11 @@
+/*Create a class ‘Cards’ and define suitable class variables for it. 
+Create a class ‘ClassicGame’ and define suitable class variables for it. 
+The function of the class ‘ClassicGame’ name game will take two cards as input and compare them.
+First, compare the values on the cards; the player having higher number on the card will win the game. For example, the card having the number 2 will lose to the card having the number 3. 
+If the numbers on the cards are the same, compare the suits of the two cards. The suits in order of priority are: 
+Spades > Diamond > Hearts > Clubs 
+Increase the point of the winner card by 1 and print the scores.*/
+
 package com.Module2;
 
 import java.util.*;
