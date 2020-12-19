@@ -1,4 +1,4 @@
-package com.Module2;
+package com.Module2.Domain.V1;
 
 public class BrandV1 {
     private String name;
