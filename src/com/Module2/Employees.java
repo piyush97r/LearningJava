@@ -5,9 +5,9 @@ public class Employees {
 
         Employee E1 = new Employee(101512031,"Sushil", "Kumar", 45000.58);
         Employee E2 = new Employee(101512032,"Tara", "Sharma", 51000.99);
-        System.out.println("employee full name "+E1.getEmpFirstName()+" "+E1.getEmpSecondName());
+        System.out.println("employee full name "+E1.getEmpFirstName()+""+E1.getEmpSecondName());
         System.out.println("employee annual package "+E1.getAnnualSalary(E1.getEmpSalary()));
-        System.out.println("employee full name "+E2.getEmpFirstName()+" "+E2.getEmpSecondName());
+        System.out.println("employee full name "+E2.getEmpFirstName()+E2.getEmpSecondName());
         System.out.println("employee annual package "+E2.getAnnualSalary(E2.getEmpSalary()));
     }
 }
