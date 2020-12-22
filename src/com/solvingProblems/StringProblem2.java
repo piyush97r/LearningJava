@@ -10,6 +10,7 @@ public class StringProblem2 {
             for(int i=0;i<3;i++)
             {
                 String s1=sc.next();
+                //String s1=sc.next();
                 int x=sc.nextInt();
                 String s2 =  sc.next();
                 int y = sc.nextInt();
