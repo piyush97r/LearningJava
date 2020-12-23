@@ -2,7 +2,8 @@ package com.Module2;
 
 class Coffee
 {
-    private void order()
+    /*private void order()*/ /* Keeping this as private is causing the problem*/
+    protected void order()      //This is the solution to the error we get
     {
         System.out.println("Coffee");
     }
