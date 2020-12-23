@@ -1,52 +1,37 @@
 package com.Module2;
 
-class Student3 {
+class Student4 {
     private final String name;
     private int year;
     private static final int annualFees = 10000;
 
-    public Student3(String name, int year) {
+    public Student4(String name, int year) {
         this.name       = name;
         this.year       = year;
     }
 
     public String getDetails() {
         return "Name : "        + name           + '\n' +
-                "Fees : "        + this.computeFees() ;
+                "Fees : "        + computeFees() ;
     }
 
     public int computeFees () {
-        return Student3.annualFees * year;
+
+        return Student4.annualFees * year;
     }
 }
 
-class ResearchStudent {
-    private final String name;
-    private int year;
-    private static final int annualFees = 10000;
+class ResearchStudent4 extends Student4 {
     private String researchArea;
-
-    public ResearchStudent(String name, int year, String researchArea) {
-        this.name       = name;
-        this.year       = year;
+    public ResearchStudent4(String name, int year, String researchArea) {
+        super(name, year);
+        this.researchArea = researchArea;
     }
-
-    public String getDetails() {
-        return "Name : "        + name           + '\n' +
-                "Fees : "        + this.computeFees() ;
-    }
-
-    public int computeFees () {
-        return annualFees * year;
-    }
-
-
 }
 
-
-public class IandP1 {
+public class IandP2 {
     public static void main(String[] a) {
-        Student3 s1 = new Student3("Sujit", 2);
+        Student4 s1 = new Student4("Sujit", 2);
         System.out.println(s1.getDetails());
         ResearchStudent4 s2 = new ResearchStudent4("siddharth", 3, "Software Engineering");
         System.out.println(s2.getDetails());
