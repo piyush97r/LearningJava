@@ -1,7 +1,7 @@
 package com.Module2;
 
 
-    class Rectangle {
+class Rectangle {
         private double length;
         private double breadth;
         /*public Rectangle(double length, double breadth)
@@ -18,11 +18,11 @@ package com.Module2;
         }
 
     }
-    public class AreaOfRectangle {
+public class AreaOfRectangle {
         public static void main(String[] args) {
-            Rectangle R1= new Rectangle();
+            PerimeterAndArea1 R1= new PerimeterAndArea1();
             R1.setDimension(7.33,4.22);
-            System.out.println("Area = "+R1.area());
+            System.out.println(new StringBuilder().append("Area = ").append(R1.area()).toString());
         }
     }
 

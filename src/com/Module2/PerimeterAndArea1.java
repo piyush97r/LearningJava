@@ -22,8 +22,9 @@ public class PerimeterAndArea1 {
         return height;
     }
 
-    public void area() {
+    public boolean area() {
         System.out.println("Area of Rectangle is: " +  (width * height) ) ;
+        return false;
     }
 
     public void perimeter() {
@@ -40,8 +41,9 @@ class Square5 extends PerimeterAndArea1 {
       super(side, side);
    }
 
-    public void area() {
+    public boolean area() {
         System.out.println("Area of Square is: " + (super.getWidth() * super.getWidth()) ) ;
+        return false;
     }
 
     public void perimeter() {
