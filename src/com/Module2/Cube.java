@@ -8,7 +8,7 @@ class Square {
         System.out.println("Length=" + length + "Breadth=" + breadth);
     }
 }
-public class Cube extends Square {
+public class Cube extends Square5 {
     double height;
     Cube(double length, double breadth, double height) {
         super(length, breadth);
