@@ -2,10 +2,15 @@ package com.Module2;
 
 public class UsingGet {
     public static void main(String[] args) {
-        Persons p1 = new Persons("Ankit") {
+        Persons1 p1 = new Persons1("Ankit") {
             @Override
             public String getDetails() {
                 return null;
+            }
+
+            @Override
+            public boolean getName() {
+                return false;
             }
         };
         System.out.println(p1.getName());

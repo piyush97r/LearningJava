@@ -1,10 +1,10 @@
 package com.Module2;
 
 
-abstract class Persons {
+abstract class Persons1 {
     protected final String name;
 
-    public Persons(String name) {
+    public Persons1(String name) {
         this.name = name;
 
     }
@@ -14,7 +14,7 @@ abstract class Persons {
     public abstract boolean getName();
 }
 
-class Student11 extends Persons {
+class Student11 extends Persons1 {
 
     protected int year;
 
@@ -48,7 +48,7 @@ class Student11 extends Persons {
 
 }
 
-class Professor extends Persons {
+class Professor extends Persons1 {
     private int employeeNumber;
     private static final float startingSalary = 50000;
 
@@ -102,14 +102,14 @@ public class IandP11 {
 
         Professor p1 = new Professor("SKC", 100);
 
-        Persons[] array = {s1, s2, p1};
+        Persons1[] array = {s1, s2, p1};
         printDetails(array);
 
 
     }
 
-    public static void  printDetails (Persons[] persons) {
-        for (Persons person: persons) {
+    public static void  printDetails (Persons1[] people) {
+        for (Persons1 person: people) {
             System.out.println(person.getDetails());
         }
     }
