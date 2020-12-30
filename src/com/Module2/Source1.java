@@ -15,7 +15,7 @@ abstract class absdetail {
     public String getFatherName()
     {
 
-        return fatherName;
+        return fatherName; //Test
     }
 
 }
