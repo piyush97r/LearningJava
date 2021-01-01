@@ -37,7 +37,7 @@ public class PerimeterAndArea1 {
 }
 
 class Square5 extends PerimeterAndArea1 {
-          Square5(double side) {
+          Square5(double length, double side) {
       super(side, side);
    }
 
