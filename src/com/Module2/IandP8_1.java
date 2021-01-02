@@ -1,6 +1,6 @@
 package com.Module2;
 
-class Student9 {
+class Student9 {//THis is an example program for Method Overriding - Dynamic Polymorphism
     protected final String name;
     protected int year;
 
@@ -32,7 +32,7 @@ class ResearchStudent9 extends Student9 {
 
     }
 
-    @Override
+    @Override // Used to override the function getDetails
     public String getDetails() {
         return this.name + " is a research student with research area " + this.researchArea + " and he/she is in his/her year " + this.year;
     }
@@ -42,7 +42,7 @@ class ResearchStudent9 extends Student9 {
 
 
 
-public class IandP8_1 {
+public class IandP8_1 { //Main Class
     public static void main(String[] a) {
 
 
