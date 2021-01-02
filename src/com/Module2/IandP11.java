@@ -100,9 +100,9 @@ public class IandP11 {
         ResearchStudent11 s2 = new ResearchStudent11("siddharth", 3, "Software Engineering");
         //System.out.println(s2.getDetails());
 
-        Professor p1 = new Professor("SKC", 100);
+        Professors p3 = new Professors("SKC", 100);
 
-        Persons1[] array = {s1, s2, p1};
+        Persons1[] array = new Persons1[]{s1, s2};
         printDetails(array);
 
 
