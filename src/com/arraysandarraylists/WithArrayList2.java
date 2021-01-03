@@ -2,15 +2,15 @@ package com.arraysandarraylists;
 
 import java.util.*;
 
-public class WithArrayList {
+public class WithArrayList2 {
 
     public static void main (String[] args) {
         ArrayList studentList = new ArrayList();
-
         studentList.add(new Student2("Sujit", 1));
         studentList.add(new Student2("Siddharth", 2));
         studentList.add(new Student2("Karanpreet", 3));
 
+        studentList.add(new Student2("Tricha", 4));
         printStudentList(studentList);
     }
 
@@ -22,11 +22,11 @@ public class WithArrayList {
     }
 }
 
-class Student {
+class Student2 {
     private final String name;
     private final int rollNumber;
 
-    public Student(String name, int rollNumber) {
+    public Student2(String name, int rollNumber) {
         this.name = name;
         this.rollNumber = rollNumber;
     }
@@ -53,4 +53,3 @@ class Student {
 
   3. Using a non-generic ArrayList is type-unsafe.
 */
-
