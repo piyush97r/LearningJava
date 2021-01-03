@@ -2,31 +2,30 @@ package com.arraysandarraylists;
 
 import java.util.*;
 
-public class WithArrayList {
+public class WithArrayGenerics {
 
     public static void main (String[] args) {
-        ArrayList studentList = new ArrayList();
+        ArrayList<Student4> studentList1 = new ArrayList<Student4>();
+        studentList1.add(new Student4("Sujit", 1));
+        studentList1.add(new Student4("Siddharth", 2));
+        studentList1.add(new Student4("Hari",4));
 
-        studentList.add(new Student4("Sujit", 1));
-        studentList.add(new Student4("Siddharth", 2));
-        studentList.add(new Student4("Karanpreet", 3));
-
-        printStudentList(studentList);
+        studentList1.add(new Student4("Tricha", 4));
+        printStudentList(studentList1);
     }
 
-    public static void printStudentList(ArrayList students) {
-        for(Object o : students) {
-            Student4 s = (Student4) o;
-            System.out.println(s.getDetails());
+    public static void printStudentList(ArrayList<Student4> students) {
+        for(Student4 s : students) {
+               System.out.println(s.getDetails());
         }
     }
 }
 
-class Student {
+class Student4 {
     private final String name;
     private final int rollNumber;
 
-    public Student(String name, int rollNumber) {
+    public Student4(String name, int rollNumber) {
         this.name = name;
         this.rollNumber = rollNumber;
     }
