@@ -20,7 +20,7 @@ public class Graded {
         ArrayList<Integer> list2 = new ArrayList<>();
         // arr[0] is stored in list1
         list1.add(arr[0]);
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {//if loop
             // If arr[i] and arr[0] has opposite signs store arr[i] in list2
             if ((arr[0] ^ arr[i]) < 0) {
                 list2.add(arr[i]);
