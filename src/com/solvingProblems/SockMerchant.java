@@ -1,5 +1,6 @@
 package com.solvingProblems;
 
+// Solving hackerrank problem. Sock Merchant Issue
 import java.util.*;
 import java.io.*;
 
