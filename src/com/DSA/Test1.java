@@ -1,9 +1,8 @@
 package com.DSA;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args){
-        fun(12,3);
-        System.out.print(fun(int a,int b));
+        System.out.println(fun(12,3));
     }
     public static int fun(int a, int b) {
         if (b == 0)
