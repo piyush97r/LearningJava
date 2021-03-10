@@ -38,7 +38,7 @@ public class Testing
         r = s.nextInt();
         n = s.nextInt();
         m = s.nextInt();
-
+        //Just a test app
         System.out.println(gp(a, r, n, m) + "\n" );
     }
 }
