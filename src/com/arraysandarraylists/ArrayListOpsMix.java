@@ -14,6 +14,7 @@ class ArrayListOpsMix {
 
         //Write new statements here
         random.add(3,15f);
+        random.add(3,15f);
         random.remove(4);
         printList(random);
     }
