@@ -23,7 +23,7 @@ public class EmailString {
         emails.add("marie.george@xyz.com");
 
         System.out.println("Testing for the further code. ");
-        System.out.println("Unable to complete the same");
+        System.out.println("Unale to complete the same");
         }
 
     }
