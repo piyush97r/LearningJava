@@ -17,6 +17,6 @@ class EmailString {
                 i++;
         }
         if(i==emails.length) System.out.println("-1");
-        else System.out.println(i);
+        else {System.out.println(i);
     }
 }
